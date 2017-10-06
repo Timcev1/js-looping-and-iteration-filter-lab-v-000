@@ -2,7 +2,7 @@
 function findMatching(array, name){
   return array.filter(function (drivername){
     return driverName.toLowerCase() === name.toLowerCase();
-  })
+  });
 }
 
 function fuzzyMatch(){
@@ -10,5 +10,5 @@ function fuzzyMatch(){
 }
 
 function matchName(){
-  
+
 }
